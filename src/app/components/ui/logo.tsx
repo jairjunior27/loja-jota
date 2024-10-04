@@ -7,7 +7,7 @@ type props = {
 
 export const Logo = ({size}:props) =>{
     return(
-        <Link href='/'>
+        <Link href='/' className="mr-3">
            
             <Image
             src={'/logo.png'}

@@ -11,8 +11,8 @@ type props = {
 
 export const NavItem = ({href,icon,label}:props) =>{
     return(
-        <Link href={href}>
-            {icon && <FontAwesomeIcon icon={icon} className="size-6"/>} 
+        <Link href={href} className="flex items-center mx-2 opacity-70 hover:opacity-100 mb-4">
+            {icon && <FontAwesomeIcon icon={icon} className="size-6 mr-3"/>} 
             {label}
         </Link>
     )
